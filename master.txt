@@ -1,2 +1,6 @@
 master
+<<<<<<< HEAD
 heihei
+=======
+hello
+>>>>>>> test
