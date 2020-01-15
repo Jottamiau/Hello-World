@@ -1,0 +1,51 @@
+.ke-content pre {
+	border: 1px dotted green;
+	background-color: #EFFDF3;
+	padding: 4px;
+}
+
+.ke-content h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.ke-content h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 24px;
+}
+
+.ke-content h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 48px;
+}
+
+.ke-content ol li {
+	list-style-type: decimal;
+}
+
+.ke-content ul li {
+	list-style-type: disc;
+}
+
+.ke-content {
+	font-size: 18px;
+	line-height: 28px;
+}
+.ke-content img{
+	max-width: 100%;
+}
+.ke-content a {
+	color: #4f7cce
+}
+
+.ke-content table, .ke-content  tr, .ke-content  td {
+	/**border: 2px solid #000000;**/
+	padding: 4px;
+}
+
+.ke-content table td p {
+	margin: 0px;
+	line-height: normal;
+}
