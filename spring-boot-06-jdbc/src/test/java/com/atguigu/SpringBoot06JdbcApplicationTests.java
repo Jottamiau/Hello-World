@@ -20,7 +20,8 @@ class SpringBoot06JdbcApplicationTests {
 
 	@Test
 	void contextLoads() throws SQLException {
-		System.out.println(dataSource);
+		//获取数据源加载类
+		System.out.println(dataSource.getClass());
 		Connection connection = dataSource.getConnection();
 		System.out.println(connection);
 		connection.close();
