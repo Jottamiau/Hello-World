@@ -20,7 +20,7 @@ class SpringBoot06JdbcApplicationTests {
 
 	@Test
 	void contextLoads() throws SQLException {
-		//获取数据源加载类
+		//获取数据源加载类 默认class com.zaxxer.hikari.HikariDataSource
 		System.out.println(dataSource.getClass());
 		Connection connection = dataSource.getConnection();
 		System.out.println(connection);
