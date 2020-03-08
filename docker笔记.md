@@ -85,12 +85,12 @@ systemctl stop docker
 
 ### 1）、镜像操作
 
-| 操作 | 命令                  | 说明                                                     |
-| ---- | --------------------- | -------------------------------------------------------- |
-| 检索 | docker  search mysql  | 我们经常去docker  hub上检索镜像的详细信息，如镜像的TAG。 |
-| 拉取 | docker pull mysql:tag | :tag是可选的，tag表示标签，多为软件的版本，默认是latest  |
-| 列表 | docker images         | 查看所有本地镜像                                         |
-| 删除 | docker rmi image-id   | 删除指定的本地镜像                                       |
+| 操作   | 命令                    | 说明                                  |
+| ---- | --------------------- | ----------------------------------- |
+| 检索   | docker  search mysql  | 我们经常去docker  hub上检索镜像的详细信息，如镜像的TAG。 |
+| 拉取   | docker pull mysql:tag | :tag是可选的，tag表示标签，多为软件的版本，默认是latest  |
+| 列表   | docker images         | 查看所有本地镜像                            |
+| 删除   | docker rmi image-id   | 删除指定的本地镜像                           |
 
 https://hub.docker.com/
 
@@ -183,7 +183,7 @@ ad10e4bc5c6a        mysql               "docker-entrypoint.sh"   4 seconds ago  
 
 ```shell
 [root@localhost ~]# docker exec -it mysql bash
-root@3172515930e1:/# mysql -uroot -p123456
+root@3172515930e1:/# mysql -uroot -p123456	
 mysql> 
 ```
 
