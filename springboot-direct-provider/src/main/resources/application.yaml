@@ -1,0 +1,17 @@
+#连接基础配置
+spring:
+  rabbitmq:
+    host: 192.168.2.225
+    username: root
+    password: 123456
+    port: 5672
+    
+#日志mq消息配置
+rabbitmq:
+  config: 
+    log:
+      #交换器名称
+      exchange-name: log.exchange.error
+      #路由键名称
+      routing-key-name: log.routing-key.error
+            
