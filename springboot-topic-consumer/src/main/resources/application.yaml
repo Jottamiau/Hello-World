@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host: 192.168.2.225
+    port: 5672
+    username: root
+    password: 123456
+mq:
+  #日志消息接收交换器名称
+  exchange-name: log.topic
+  #info级别队列名称、路由键名称
+  info-queue: to_info_queue
+  info-routing-key: '*.log.info'
+  #error级别队列名称、路由键名称
+  error-queue: to_error_queue
+  error-routing-key: '*.log.error'
+  #all级别队列名称、路由键名称
+  all-queue: to_all_queue
+  all-routing-key: '*.log.*'

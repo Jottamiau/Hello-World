@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.2.225
+    port: 5672
+    username: root
+    password: 123456
+mq: 
+  #日志服务接收交互器名称
+  exchange-name: log.topic
+  
